@@ -1,0 +1,68 @@
+Crear_Usuario
+{
+    "id_user": "a13asd16655asd3166",
+    "user_display_name": "Usuario Usac",
+    "user_nickname":"usuario_usac",
+    "user_password":"USAC12345",
+    "user_age":17,
+    "user_career":"Ingeniería en Ciencias y Sistemas",
+    "user_carnet": 202213546
+}
+
+Login_Usuario
+{
+    "user_nickname":"usuario_usac",
+    "user_password":"USAC12345"
+}
+
+Crear_Libro
+{
+                "id_book": "a13asd16655asd3166",
+                "book_title": "Harry Potter",
+                "book_type": "Libro",
+                "author":"J.K. Rowling",
+                "book_count":150,
+                "book_available":100,
+                "book_not_available":50,
+                "book_year":2021,
+                "book_editorial":"Bloomsbury Publishing"
+}
+
+Actualizar_Libro
+{
+                "id_book": "a13asd16655asd3166",
+                "book_title": "Harry Potter",
+                "book_type": "Libro",
+                "author":"J.K. Rowling",
+                "book_count":150,
+                "book_available":100,
+                "book_not_available":50,
+                "book_year":2022,
+                "book_editorial":"Bloomsbury Publishing"
+}
+
+Buscar_Libro_ID_BOOK
+{
+                "id_book": "a13asd16655asd3166"
+}
+
+Buscar_Libro_BOOK_TYPE
+{
+                "book_type": "Libro"
+}
+
+Buscar_Libro_BOOK_TITLE
+{
+                "book_title": "Harry Potter"
+}
+
+Registrar_Prestamo
+{
+    "id_book": "a13asd16655asd3166",
+    "id_user": "a13asd16655asd3166"
+}
+
+IDEA_REVOLUCIONARIA
+{
+                "author": "J.K. Rowling"
+}
